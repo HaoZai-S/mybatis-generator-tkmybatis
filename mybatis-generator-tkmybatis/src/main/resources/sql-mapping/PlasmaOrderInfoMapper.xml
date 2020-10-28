@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.haozai.mbgtk.mapper.PlasmaOrderInfoMapper">
+  <resultMap id="BaseResultMap" type="com.haozai.mbgtk.mdoel.PlasmaOrderInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="uk_order_id" jdbcType="VARCHAR" property="ukOrderId" />
+    <result column="gmt_create" jdbcType="TIMESTAMP" property="gmtCreate" />
+    <result column="gmt_modified" jdbcType="TIMESTAMP" property="gmtModified" />
+    <result column="gmt_creator_id" jdbcType="VARCHAR" property="gmtCreatorId" />
+    <result column="gmt_modified_id" jdbcType="VARCHAR" property="gmtModifiedId" />
+    <result column="order_info" jdbcType="VARCHAR" property="orderInfo" />
+  </resultMap>
+</mapper>
